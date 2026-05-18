@@ -1,0 +1,54 @@
+
+.main__contacts {
+    padding: 50px 0 62px 0;
+}
+.main__contacts-title {
+    user-select: none;
+    text-align: center;
+    padding-bottom: 80px;
+    font-size: 64px;
+    color: #F59700;
+    text-shadow: 
+    1px 0 0 black,
+    -1px 0 0 black,
+    0 1.5px 0 black,
+    0 -1.5px 0 black;
+}
+.main__contacts-list {
+    
+    display: grid;
+    /* background-color: #F59700; */
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;  /* два столбца равной ширины */
+    gap: 40px 5px;    
+    padding-left: 380px;
+    /* padding: 10px 300px; */
+    
+}
+.contacts-item {
+    /* display: block; */
+}
+
+.contacts__item-blocktop{
+    padding-bottom: 20px;
+}
+.contacts__item-block {
+    /* display: flex; */
+    /* align-items: center; */
+}
+.main__contacts__list-img {
+    user-select: none;
+}
+.main__contacts__list-title {
+    user-select: none;
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+.main__contacts__list-text {
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
